@@ -38,7 +38,7 @@ header h1{
 
 .imageInfo div{
   margin-top: 45%;
-  padding: 5rem;
+  padding: 5rem 5rem 5rem 0;
 }
 
 .item img{
@@ -48,12 +48,16 @@ header h1{
   pointer-events: none;
 }
 
+item img:hover {
+  cursor: grab;
+}
+
 .inner-carousel {
   display:flex;
 }
 
 .carousel {
-  margin: 5rem 1.5rem 0 5rem;
+  margin: 5rem 1.5rem 0 2rem;
   cursor: grab;
   overflow: hidden;
 }

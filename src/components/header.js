@@ -9,6 +9,7 @@ export default function Header() {
         <p>work</p>
         <p>about</p>
         <p>services</p>
+        <p>contact</p>
         </div>
       </header>
   )
