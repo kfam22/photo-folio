@@ -1,13 +1,14 @@
 import './App.css';
 import Carousel from './components/carousel';
-
+import Header from './components/header';
 
 function App() {
 
 
   return (
     <div className="App">
-     <Carousel/>
+      <Header/>
+      <Carousel/>
     </div>
   );
 }
