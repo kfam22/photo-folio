@@ -4,12 +4,12 @@ export default function Header() {
 
   return (
     <header>
-        <h1>Kayla Famurewa</h1>
+        <a className='logo' href='#'>Kayla Famurewa</a>
         <div className='nav'>
-        <p>work</p>
-        <p>about</p>
-        <p>services</p>
-        <p>contact</p>
+        <a href='#'>work</a>
+        <a href='#'>about</a>
+        <a href='#'>services</a>
+        <a href='#'>contact</a>
         </div>
       </header>
   )
